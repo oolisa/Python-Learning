@@ -1,4 +1,4 @@
 # Python-Learning
 
 
-Pushing changes to the main branch is not encouraged.
+This Repository contains all code and scripts of Python Learning.
