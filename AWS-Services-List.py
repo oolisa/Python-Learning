@@ -13,8 +13,8 @@ awsservices_list.append("CloudFormation")
 awsservices_list.append("Elastic Beanstalk")
 
 #3. Print the list and length of the list.
-#print(awsservices_list)
-#print (len(awsservices_list))
+print(awsservices_list)
+print (len(awsservices_list))
 
 #4. Remove two specific services from the list by name or by index.
 
