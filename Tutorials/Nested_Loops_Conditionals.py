@@ -40,6 +40,27 @@
 
 #Using for loop with else.
 #for i in[1, 2, 3, 4, 5]:
-#    print(i)
+ #   print(i)
 #else:
 #    print("For loop completed")
+    
+#Conditionally break out of loop your in.
+#colors = ['red', 'pink', 'blue', 'orange', 'green']
+#for color in colors:
+#    if color == 'orange':
+#        print('Orange is in the list')
+#        break
+#else:
+#    print("Orange is not in the list")
+
+#Using Range function with while loop.
+
+count = 1
+while count <= 4:
+    print("looping")
+    count += 1
+
+#OR
+    
+for _ in range(4):
+    print("looping")
