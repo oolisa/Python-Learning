@@ -17,5 +17,7 @@ for color in colors:
   #for key, value in ages.items():
    # print(key, value)
     
-    
+    #for letter in 'my_string':
+    #     print(letter)
+         
     
