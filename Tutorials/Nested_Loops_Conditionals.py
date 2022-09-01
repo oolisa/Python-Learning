@@ -22,10 +22,24 @@
 #    count += 1
     
 
-colors = ['blue', 'green', 'red', 'purple']
-for color in colors:
-    if color == 'blue':
-        continue
-    elif color == 'red':
-        break
-    print(color)
+#colors = ['blue', 'green', 'red', 'purple']
+#for color in colors:
+   # if color == 'blue':
+  #      continue
+ #   elif color == 'red':
+#        break
+#    print(color)
+
+#Integrating 'else' with Loops.
+#count = 1
+#while count <= 4:
+#    print(count)
+#    count += 1
+#else:
+#    print("While loop completed")
+
+#Using for loop with else.
+#for i in[1, 2, 3, 4, 5]:
+#    print(i)
+#else:
+#    print("For loop completed")
