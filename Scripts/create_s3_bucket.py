@@ -3,9 +3,7 @@ aws_resource=boto3.resource("s3")
 bucket=aws_resource.Bucket("otdynamic3")
 response = bucket.create(
     ACL='private',
-    CreateBucketConfiguration={
         
-    },
 
 )
 
