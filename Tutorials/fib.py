@@ -4,9 +4,10 @@ def fib(n):
     elif n == 1:
         return 1
         
-    return fib(n-2) + fib(n-1)
+    return fib(n - 2) + fib(n - 1)
     
-item_to_calculate = int(input("What Fibonacci item would you like to calculate? ")
-print(fib(item_to_calculate)) 
+item_to_calculate = int(input("What Fibonacci item would you like to calculate? "))
+print(fib(item_to_calculate))
+
 
 
