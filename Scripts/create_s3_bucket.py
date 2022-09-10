@@ -4,7 +4,7 @@ bucket=aws_resource.Bucket("otdynamic3")
 response = bucket.create(
     ACL='private',
     CreateBucketConfiguration={
-        'LocationConstraint':'us-east-1'
+        
     },
 
 )
