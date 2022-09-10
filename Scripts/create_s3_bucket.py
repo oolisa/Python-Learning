@@ -1,10 +1,10 @@
 import boto3
 aws_resource=boto3.resource("s3")
-bucket=aws_resource.Bucket("otdynamic")
+bucket=aws_resource.Bucket("otdynamic3")
 response = bucket.create(
-    ACL='public-read',
+    ACL='private',
     CreateBucketConfiguration={
-        'LocationConstraint':'us-east-2'
+        'LocationConstraint':'us-east-1'
     },
 
 )
