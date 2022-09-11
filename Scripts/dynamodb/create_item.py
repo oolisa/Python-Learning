@@ -4,8 +4,9 @@ dynamodb = boto3.client("dynamodb")
 
 response = dynamodb.put_item(
     Item={
+
         'ID':{
-            'S': 'ded56edc-987d-4044-9282-9051bf0432ff'
+            'S': 'f92966bb-bc96-4d5c-b63c-92fb5259c9e2'
         },
         
         'AlbumTitle': {
