@@ -1,11 +1,10 @@
 import boto3
 s3 = boto3.client('s3')
 
-response = s3.put_object(
-    Body='search_s3_bucket.py',
-    Bucket='otdynamic3',
-    Key='search_s3_bucket.py',
-)
+filename="search_s3_bucket.py"
 
-print(response)
+with open(filename, 'rb') as data:
+    s3.upload_fileobj(data, 'otdynamic3', filename)
+    
+    print("Object has been uploaded") 
  
