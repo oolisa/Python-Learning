@@ -7,3 +7,4 @@ for bucket in s3_resource.list_buckets()[ "Buckets" ]:
     print(bucket["Name"])
     print(bucket["CreationDate"])
     
+    
