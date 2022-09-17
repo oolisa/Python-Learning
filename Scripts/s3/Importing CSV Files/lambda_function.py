@@ -45,3 +45,5 @@ def read_csv(file):
                             v in data['Meta'].items() if v is not None}
             items.append(data)
     return items
+
+#The batch writer can help to de-duplicate request by specifying overwrite_by_pkeys=['partition_key', 'sort_key'] if you want to bypass no duplication limitation of single batch write request as botocore.exceptions.ClientError: An error occurred (ValidationException) when calling the BatchWriteItem operation: Provided list of item keys contains duplicates.
